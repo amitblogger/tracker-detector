@@ -1,1 +1,14 @@
-
+{
+  "name": "tracker-detector",
+  "version": "1.0.0",
+  "description": "A web tool to detect trackers on websites",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
